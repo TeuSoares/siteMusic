@@ -1,0 +1,52 @@
+.admMusic h1{
+    color: #fff;
+    font-size: 30px;
+    margin-bottom: 30px; 
+    margin-top: 80px;
+    text-align: center;
+}
+.container-table{
+    width: 1000px;
+    margin: 20px auto 80px auto;
+}
+.boxTable{
+    overflow: hidden;
+    overflow-x: scroll;
+}
+.table{
+    width: 100%;
+    border-collapse: collapse;
+    white-space: nowrap;
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+}
+.table th{
+    padding: 15px;
+    background-color: #9e3535;
+} 
+.table td{
+    padding: 15px;
+    background-color: #202020;
+    border-bottom: 1px solid #535353;
+}
+.table td .active svg{
+    color: #9e3535;
+    font-size: 1.2em;
+}
+.table button{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.table td .disabled svg{
+    color: rgba(243, 243, 243, 0.4);
+    font-size: 1.2em;
+}
+
+@media (max-width:998px){
+    .container-table{
+        width: 100%;
+        padding: 0 15px;
+    }
+}

@@ -1,0 +1,33 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Arial, Helvetica, verdana, sans-serif; 
+  background:linear-gradient(0deg, rgba(0,0,0,5),rgb(49, 49, 49));
+  background-attachment: fixed;
+}
+/* Largura da barra de rolagem */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+/* Fundo da barra de rolagem */
+::-webkit-scrollbar-track-piece {
+  background: none;
+}
+
+/* Cor do indicador de rolagem */
+::-webkit-scrollbar-thumb:vertical,
+::-webkit-scrollbar-thumb:horizontal {
+  background-color: #696969
+}
+
+/* Cor do indicador de rolagem - ao passar o mouse */
+::-webkit-scrollbar-thumb:vertical:hover,
+::-webkit-scrollbar-thumb:horizontal:hover {
+  background-color: #717171
+}

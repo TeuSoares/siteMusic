@@ -1,0 +1,27 @@
+header{
+    width: 100%;                                
+    height: 80px;                   
+    display: flex;                    
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(17, 17, 17);         
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+}
+.navbar a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 0px 15px;
+}
+.navbar a:hover{
+    color: rgb(211, 167, 21);
+}
+
+@media (max-width:550px){
+    header{
+        height: 50px; 
+    }
+}

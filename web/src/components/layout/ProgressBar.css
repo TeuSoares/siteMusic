@@ -1,0 +1,21 @@
+.container-bar{
+    height: 3px;
+    background-color: #ffffff;
+    position: relative;
+    border-radius: 7px;
+}
+.container-bar .progress-bar{
+    position: absolute;
+    height: 100%;
+    border-radius: 7px;
+    background-color: #bb2626;
+    animation: progress-animation 5s forwards;
+}
+@keyframes progress-animation{
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 100%;
+    }
+}
