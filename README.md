@@ -117,7 +117,6 @@ Inicializando o projeto 👇
 
 ## Links
 
-* Visualize a Home do projeto: https://mateussoares.com.br/siteMusic/web/dist/
 * Apresentação no YouTube: https://www.youtube.com/watch?v=AVKd6UlGJ4I
 
 ## Autor
