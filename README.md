@@ -1,7 +1,7 @@
 # Projeto Web - Listagem de Músicas
 
-Esse é um projeto web para praticar meus conhecimento de ReactJS e PHP. 
-O usuário pode organizar suas músicas preferidas em apenas um lugar. Foi criada uma API que lista as músicas trazidas do banco de dados e estou consumindo essa API no front-end.
+Esse é um projeto web para praticar meus conhecimento de React.JS e PHP. 
+O usuário pode organizar suas músicas preferidas em apenas um lugar. Foi criada uma API que lista as músicas trazidas do banco de dados e estou consumindo essa API no front-end. Faço a integração dos vídeos pelo YouTube
 
 ## Telas do projeto
 
@@ -32,18 +32,22 @@ O usuário pode organizar suas músicas preferidas em apenas um lugar. Foi criad
 
 ![Listas de músicas](https://i.imgur.com/tvcMeTP.jpg)
 
-## Tecnologias
+## O que foi utilizado
 
-* ReactJS
+* React.JS (Hooks)
+* Gerenciamento de estados com Context API
 * PHP
-* Banco de dados (MySql)
-* Autenticação com Token JWT
+* Banco de dados (MySQL)
+* Sistema de autenticação com JWT
+* Integração com vídeos do YouTube
+* Axios para consumo das APIs
 
 ## Funcionalidades
 * [x] Ouvir a música selecionada
 * [x] Autenticação e cadastro de usuário
 * [x] Cadastro de novas músicas
 * [x] Excluir músicas
+* [x] Atualizar uma música
 
 ## Como rodar
 
