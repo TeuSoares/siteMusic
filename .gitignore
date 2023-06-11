@@ -13,8 +13,9 @@ dist-ssr
 *.local
 .env
 vendor
-composer.json
 composer.lock
+
+img
 
 # Editor directories and files
 .vscode/*
